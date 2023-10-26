@@ -1,0 +1,243 @@
+<!doctype html>
+<html lang="en" class="has-navbar-fixed-top">
+<head>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-Y4HZYWV4N1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-Y4HZYWV4N1');
+    </script>
+    <meta charset="utf-8">
+    <meta name="description" content="Horse Fable is an immersive story-driven horse simulation game set in an undiscovered fantasy world. Breed horses with a realistic genetic system that allows for trillions of color possibilities.">
+    <meta name="author" content="Laughing Dog Studio">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="csrf-token" content="xXCmrHFVIdJqaSROz9pUaAGLSBCWmVZjA75a0NGL">
+    <title>Horse Fable :: Online Horse Game</title>
+    <script src="https://kit.fontawesome.com/0513654838.js" crossorigin="anonymous"></script>
+    
+    <link rel="dns-prefetch" href="//fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+    
+    <link href="https://horsefable.com/css/app.css" rel="stylesheet">
+    <style>
+            .text-white, .title.text-white {
+                color: #fff;
+            }
+    
+            .message {
+                background-image: url("/storage/images/layout/userBanner.png");
+                background-repeat: no-repeat;
+                background-color: transparent;
+                background-size: cover;
+                background-position: center center;
+                padding: 20px 0 20px 100px;
+                font-size: 13px;
+                margin: 0;
+            }
+    
+            @media only screen and (max-width: 768px) {
+                .columns {
+                    padding: 0 10px;
+                }
+    
+                .message {
+                    padding: 20px;
+                }
+            }
+        </style>
+    <style>
+            #hofaVideo {
+                position: fixed;
+                right: 0;
+                top: 0;
+                width:100%;
+                height: auto;
+                z-index: 0;
+            }
+    
+            main, footer{
+                position: relative;
+                z-index: 1;
+            }
+    
+            @media (max-width: 1080px) {
+                #hofaVideo {
+                    display: none;
+                }
+            }
+        </style>
+    <link rel="icon" type="image/png" href="/storage/images/layout/favicon.ico">
+    <script>
+            document.addEventListener('DOMContentLoaded', () => {
+    
+                // Get all "navbar-burger" elements
+                const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+    
+                // Check if there are any navbar burgers
+                if ($navbarBurgers.length > 0) {
+    
+                    // Add a click event on each of them
+                    $navbarBurgers.forEach( el => {
+                        el.addEventListener('click', () => {
+    
+                            // Get the target from the "data-target" attribute
+                            const target = el.dataset.target;
+                            const $target = document.getElementById(target);
+    
+                            // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+                            el.classList.toggle('is-active');
+                            $target.classList.toggle('is-active');
+    
+                        });
+                    });
+                }
+    
+            });
+        </script>
+    
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-204261051-1"></script>
+    <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+    
+            gtag('config', 'UA-204261051-1');
+        </script>
+</head>
+<body style="background-image: url(/storage/images/layout/Westworld_BG.jpg); background-color: #a9baba;">
+    <div class="embed-responsive embed-responsive-16by9">
+        <video class="embed-responsive-item" autoplay muted loop id="hofaVideo">
+            <source src="./img/HorseFable.mp4" type="video/mp4">
+        </video>
+    </div>
+    <div id="app" class="bg-index-image">
+        <nav class="navbar is-fixed-top has-shadow p-0" role="navigation" aria-label="main navigation">
+            <div class="navbar-brand">
+                <a class="navbar-item" href="/">
+                <img src="https://horsefable.com/storage/images/HorseFableLogo_small.png" style="width: 80px; max-height: none;">
+                </a>
+                <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="hofaNavBar">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                </a>
+                </div>
+                <div id="hofaNavBar" class="navbar-menu">
+                <div class="navbar-start">
+                <a class="navbar-item" href="https://horsefable.com/news">
+                Updates
+                </a>
+                <a class="navbar-item" href="https://horsefable.com/design-lab">
+                Design Lab
+                </a>
+                <a class="navbar-item" href="https://horsefable.com/community">
+                Forum
+                </a>
+                <a class="navbar-item" href="https://horsefable.com/town">
+                Town
+                </a>
+                <a class="navbar-item" href="https://horsefable.com/market">
+                Market
+                </a>
+                <a class="navbar-item" href="https://horsefable.wiki" target="_blank">
+                Wiki
+                </a>
+                <a class="navbar-item" href="https://horsefable.com/contact-staff">
+                Contact Staff
+                </a>
+                </div>
+                <div class="navbar-end">
+                <div class="navbar-item">
+                <div class="buttons">
+                <a class="button is-info" href="/register">
+                <strong>Create Account</strong>
+                </a>
+                </div>
+                </div>
+                </div>
+            </div>
+        </nav>
+        <main class="content pt-4">
+            <div class="has-text-centered">
+                <!-- Aquí va el logo -->
+                <img src="./img/HorseFableLogo_small.png" class="logo" alt="Horse Fable">
+            </div>
+            <br>
+            <div class="columns">
+            <div class="column is-2">
+            </div>
+            <div class="column is-2 is-hidden-mobile"><img src="https://eqcetera.s3.us-west-2.amazonaws.com/images/npcs/crowley_letter.png">
+            </div>
+            <div class="column md-6">
+            <div class="message">
+            <p class="has-text-weight-bold">The locals have taken notice of your presence and are buzzing about with
+            rumors. Some believe you may be newfound hope for the wild equines, others are wary of your ties to
+            RAIL. Whatever it may be, the world of Horse Fable combines mystery, love of the equine, and the
+            never-ending need for discovery!</p>
+            </div>
+            <form method="POST" action="https://horsefable.com/login">
+            <input type="hidden" name="_token" value="xXCmrHFVIdJqaSROz9pUaAGLSBCWmVZjA75a0NGL"> <div class="field">
+            <p class="control has-icons-left has-icons-right">
+            <input class="input " id="username" type="text" name="username" value required autocomplete="username" autofocus placeholder="Username">
+            <span class="icon is-small is-left">
+            <i class="fas fa-user"></i>
+            </span>
+            </p>
+            </div>
+            <div class="field">
+            <p class="control has-icons-left">
+            <input class="input " id="password" type="password" placeholder="Password" name="password" required autocomplete="current-password">
+            <span class="icon is-small is-left">
+            <i class="fas fa-lock"></i>
+            </span>
+            </p>
+            </div>
+            <div class="columns">
+                <!-- Aquí van las columnas con contenido y formularios -->
+                <div class="column is-6">
+                    <button type="submit" class="button is-success">
+                    Login
+                    </button>
+                    </div>
+                    <div class="column is-6 has-text-right">
+                    <input class="form-check-input mt-2" type="checkbox" name="remember" id="remember">
+                    <label class="form-check-label text-white" for="remember">
+                    Remember Me
+                    </label>
+                    <br>
+                    <a href="https://horsefable.com/forgot-username" class="text-white">
+                    Forgot Username?
+                    </a>
+                    &nbsp;&nbsp;&nbsp;
+                    <a href="https://horsefable.com/password/reset" class="text-white">
+                    Forgot Password?
+                    </a>
+                    </div>
+                    </div>
+                    </form>
+                    </div>
+                <div class="column is-2"></div>
+            </div>
+            <br>
+            <div class="has-text-centered has-background-primary pt-3 pb-3 mb-2">
+                <h3 class="title is-3 text-white mb-0">Enter the world <a class="button is-info" href="/register">CREATE AN ACCOUNT</a></h3>
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="content has-text-centered">
+                <!-- Aquí va el contenido del pie de página con enlaces y créditos -->
+                <p>
+                    <a href="https://horsefable.com/terms-of-service">Terms of Service</a> | <a href="https://horsefable.com/community-rules">Community Rules</a> | <a href="https://horsefable.com/privacy-policy">Privacy Policy</a> | <a href="https://horsefable.com/staff">Staff</a> | <a href="https://horsefable.com/game-credits">Credits</a>
+                    </p>
+                    <p>Created and managed by Laughing Dog Studio.</p>
+                    <a href="https://www.instagram.com/horsefable/" target="_blank"><i class="fab fa-instagram-square fa-2x"></i></a>&nbsp;&nbsp;
+                    <a href="https://www.facebook.com/horsefable" target="_blank"><i class="fab fa-facebook-square fa-2x"></i></a>&nbsp;&nbsp;
+                    <a href="https://twitter.com/HorseFable" target="_blank"><i class="fab fa-twitter-square fa-2x"></i></a>
+            </div>
+        </footer>
+    </div>
+    <script src="/js/app.js?id=4fafb272ae5b549cdea3" defer></script>
+</body>
+</html>
